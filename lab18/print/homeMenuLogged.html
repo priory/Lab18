@@ -1,0 +1,10 @@
+<div class="stackButton"></div>
+<div class="menuBar">
+	<div class="label account">%1$s</div>
+	<div class="button four" onclick="window.location.href = window.location.origin + '/lab18/home.php';">Home</div>
+	<div class="button three" onclick="window.location.pathname = './lab18/newThread.php';">Nieuwe thread</div>
+	<div class="button two" onclick="window.location.pathname = './lab18/settings.php';">Instellingen</div>
+	<div class="button one" id="logout" onclick="
+	request('./post/requestLogout.php');
+	">Uitloggen</div>
+</div>
