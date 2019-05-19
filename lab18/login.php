@@ -11,7 +11,7 @@ if (isset($_SESSION['username'])) {
 <html>
 <head>
 	<?php echo '<link rel="shortcut icon" type="image/x-icon" href="http://' . ($_SERVER['HTTP_HOST']) . '/lab18/resources/lab18favicon.ico">'?>
-	<title>Lab18 - Login</title>
+	<title>Lab18 - Logins</title>
 	<script type="text/javascript">
 		request = (url, fd = []) => {
 			req = new XMLHttpRequest();
